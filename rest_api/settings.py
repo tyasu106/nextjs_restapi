@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "https://localhost3000",
+    "http://localhost3000",
 ]
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),
